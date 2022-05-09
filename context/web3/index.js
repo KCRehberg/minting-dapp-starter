@@ -6,7 +6,6 @@ import { ethers } from 'ethers';
 const contractAddress = web3Config.contract;
 
 const initialState = {
-  loading             : false,
   account             : null,
   provider            : null,
   signer              : null,
@@ -28,10 +27,10 @@ export const Web3Provider = ({ children }) => {
   const setWeb3Instance      = (instance) => dispatch({ type: 'SET_WEB3_INSTANCE', payload: instance });
 
   const logout = async () => {
+    setSigner(null);
     setAccount(null);
     setProvider(null);
     setContract(null);
-    setSigner(null);
     setWeb3Modal(null);
     setWeb3Instance(null);
 
