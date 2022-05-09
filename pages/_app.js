@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../components/Header/Header';
 import { Web3Provider } from '../context/web3';
 
-function Sweydaverse({ Component, pageProps }) {
+function MintingDapp({ Component, pageProps }) {
   return (
     <Web3Provider>
       <Header />
@@ -12,4 +12,4 @@ function Sweydaverse({ Component, pageProps }) {
   );
 }
 
-export default Sweydaverse;
+export default MintingDapp;

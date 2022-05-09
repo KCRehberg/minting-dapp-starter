@@ -16,7 +16,7 @@ const Header = () => {
           className="text-light m-0"
           onClick={() => handleRoute('/')}
         >
-          SWEYDAVERSE
+          Minting Dapp
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
