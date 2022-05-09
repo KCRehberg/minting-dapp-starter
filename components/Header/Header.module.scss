@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #303236;
+  color: #656571;
+  min-height: 10vh;
+
+  span:active,
+  span:focus,
+  span:hover {
+    cursor: pointer;
+    color: #d7b98e !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: #656571;
+    margin-left: 3rem;
+  }
+
+  a:active,
+  a:focus,
+  a:hover {
+    color: #d7b98e !important;
+  }
+}
+
+#linkText {
+  color: #656571;
+}
+
+.active {
+  color: #d7b98e !important;
+}

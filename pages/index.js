@@ -11,7 +11,7 @@ export default function Home() {
         <title>Sweydaverse</title>
       </Head>
 
-      <main className={styles.main}>
+      <main id="mint" className={styles.main}>
         <h1>Sweydaverse</h1>
       </main>
 
